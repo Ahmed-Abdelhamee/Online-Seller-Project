@@ -1,0 +1,144 @@
+h2{
+    color: red;
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+    margin-left:-36px;
+}
+#menu{
+    margin-left: 95px;
+}
+#menu img{
+    border: 1px saddlebrown solid;
+    height: 250px;
+    width: 200px;
+    margin: 5px;
+    margin-left: 10px;
+    padding: 5px;
+}
+#totalLook{
+    height: auto;
+    width: auto;
+    background-color:rgba(0, 0, 0, .9);
+}
+#totalLook img{
+    margin: 7px;
+    height: 400px;
+    width: 400px;
+    float: left;
+}
+.preFullImg{
+    height: 180px;
+    width: auto;
+    margin: 5px;
+    margin-left: 22px;
+}
+.preFullImg img{
+    height: 130px;
+    width: 117px;
+    padding: 5px;
+}
+#fullImg{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color:rgba(0, 0, 0, .9);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+}
+#fullImg img{    
+    max-width: 100%;
+    max-height: 100%;
+}
+#fullImg.hiddened{
+    display: none;
+} 
+.hidden{
+    display: none; 
+}
+h1{
+    margin: 25px;
+    padding: 30px;
+    color: gold;
+    text-align: center;
+}
+pre{
+    margin-top: 20px;
+    padding-top: 5px;
+    padding-bottom: 26px;
+    color: white;
+    font-size: 25px;
+    /* margin-top: 200px; */
+}
+#totalLook button{
+    margin-left: 400px;
+    width: auto;
+    height: 70px;
+    font-size: 28px;
+    font-weight: bold;
+    font-style: oblique;
+    background-color: tan;
+    color: brown;
+    margin-left: 550px;
+    margin-bottom: 20px;
+    padding: 8px;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+}
+.specialSpace{
+    padding-top: 70px;
+}
+.specialSpace1{
+    padding-bottom: 70px;
+}
+.no-scroll{
+    overflow: hidden;
+}
+h3{
+    color: blue;
+    text-align: center;
+    margin: 10px;
+    font-size: 30px;
+}
+a{
+    text-decoration: none;
+}
+
+.Exitbutton{
+    height: 50px;
+    width: 70px;
+    font-size: 20px;
+    font-weight: bold;
+    color: green;
+}
+.Previous_Photo{
+    width: 200px;
+    height: 60px;
+    font-size: 20px;
+    font-weight: bold;
+    color: green;
+    margin-left: -75px;
+}
+.Next_Photo{
+    width: 200px;
+    height: 60px;
+    font-size: 20px;
+    font-weight: bold;
+    color: green;
+    margin-top: 135px;
+    margin-left: -140spx;
+}
+h4{
+    color: blue;
+    margin: 10px;
+    font-size: 30px;
+}
+.ExitButtonLink{
+    margin-left: 20px;
+    margin-top: -150px;
+}
